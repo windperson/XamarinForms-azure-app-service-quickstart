@@ -13,7 +13,7 @@ namespace XamarinForms_client_quickstart
 		{
 			InitializeComponent();
 
-			MainPage = new XamarinForms_client_quickstart.MainPage();
+			MainPage = new TodoList();
 		}
 
 		protected override void OnStart ()

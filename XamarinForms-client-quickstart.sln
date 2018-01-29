@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinForms-client-quickstart.Android", "XamarinForms-client-quickstart\XamarinForms-client-quickstart.Android\XamarinForms-client-quickstart.Android.csproj", "{301D2108-3E4A-41CF-935D-C8E0318F46EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Android", "Android\Android.csproj", "{301D2108-3E4A-41CF-935D-C8E0318F46EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinForms-client-quickstart.iOS", "XamarinForms-client-quickstart\XamarinForms-client-quickstart.iOS\XamarinForms-client-quickstart.iOS.csproj", "{B85D2F90-06BD-46F8-8519-DE4D635D4DEB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOS", "iOS\iOS.csproj", "{B85D2F90-06BD-46F8-8519-DE4D635D4DEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinForms-client-quickstart.UWP", "XamarinForms-client-quickstart\XamarinForms-client-quickstart.UWP\XamarinForms-client-quickstart.UWP.csproj", "{16129B6F-9949-401D-B9A3-E1B42DCD18F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWP", "UWP\UWP.csproj", "{16129B6F-9949-401D-B9A3-E1B42DCD18F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinForms-client-quickstart", "XamarinForms-client-quickstart\XamarinForms-client-quickstart\XamarinForms-client-quickstart.csproj", "{21DD892B-4BB9-45DD-A7B7-B63713898A20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamarinForms_client_quickstart", "XamarinForms_client_quickstart\XamarinForms_client_quickstart.csproj", "{21DD892B-4BB9-45DD-A7B7-B63713898A20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

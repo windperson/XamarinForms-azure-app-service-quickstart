@@ -21,11 +21,11 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>MinimumOSVersion</key>
-	<string>11.2</string>
+	<string>9.3</string>
 	<key>CFBundleDisplayName</key>
-	<string>XamarinForms_client_quickstart</string>
+	<string>XamarinForms_quickstart</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.yourcompany.XamarinForms_client_quickstart</string>
+	<string>com.yourcompany.XamarinForms_quickstart</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>CFBundleIconFiles</key>

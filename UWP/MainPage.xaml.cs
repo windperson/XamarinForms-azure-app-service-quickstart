@@ -13,7 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace XamarinForms_client_quickstart.UWP
+namespace XamarinForms_quickstart.UWP
 {
     public sealed partial class MainPage
     {
