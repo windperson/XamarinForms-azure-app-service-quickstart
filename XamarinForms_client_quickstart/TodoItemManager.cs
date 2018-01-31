@@ -12,6 +12,8 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.MobileServices;
@@ -39,7 +41,19 @@ namespace XamarinForms_client_quickstart
 
         private TodoItemManager()
         {
-            this.client = new MobileServiceClient(Constants.ApplicationURL);
+            this.client = new MobileServiceClient(Constants.ApplicationURL
+                    
+#if DEBUG
+            ,new LoggingHandler(true)
+#endif
+
+#if DEBUG && FIDDLER
+            ,new HttpClientHandler
+                    {
+                        Proxy = WebRequest.GetSystemWebProxy()
+                    }
+#endif
+            );
 
 #if OFFLINE_SYNC_ENABLED
             var store = new MobileServiceSQLiteStore(offlineDbPath);
